@@ -1,0 +1,23 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", 
+                "Microsoft JhengHei", Roboto, "Helvetica Neue", 
+                Arial, sans-serif;
+    line-height: 1.5;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    &-sm{
+        max-width: 996px;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,70 @@
+// 字體大小
+.h1{
+    font-size: 80px;
+}
+.h2{
+    font-size: 32px;
+}
+.h3{
+    font-size: 24px;
+}
+.h4{
+    font-size: 20px;
+}
+
+// 字體粗細
+.fw-light{
+    font-weight: lighter;
+}
+
+.fw-bold{
+    font-weight: 600;
+}
+
+// 字體顏色
+.text-white{
+    color: #FFF;
+}
+.text-secondary{
+    color: $secondary;
+}
+
+// 背景顏色
+.bg-info{
+    background-color: $info;
+}
+
+// 字體對齊
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+
+// display
+.d-inline-block{
+    display: inline-block;
+}
+
+// border
+.border-bottom{
+    border-bottom: 1px solid #000;
+}
+
+.border-white{
+    border-color: #FFF;
+}
+
+// margin, padding
+
+@for $i from 1 to 10 {   // 1 ~ 9 (?)
+    .mb-#{$i}{
+        margin-bottom: $spacing * $i;
+    }
+}
+@for $i from 1 to 9 {   
+    .pb-#{$i}{
+        padding-bottom: $spacing * $i;
+    }
+}
